@@ -1,0 +1,1 @@
+javascript: (function() { var searchText = prompt('Enter text or number to search:', ''); var newText = prompt('Enter new text or number:', searchText); var bodyHtml = document.body.innerHTML; var newHtml = bodyHtml.split(searchText).join(newText); document.body.innerHTML = newHtml; alert('All instances replaced.'); })();
